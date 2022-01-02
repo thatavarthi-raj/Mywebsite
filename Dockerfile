@@ -1,3 +1,3 @@
-FROM docker.io/library/httpd:latest
+FROM httpd:latest
 ADD . /var/www/index.html
 
